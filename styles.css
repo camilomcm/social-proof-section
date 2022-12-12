@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px 120px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#section-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+#description {
+    width: 550px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+#description p {
+    font-size: 1.4rem;
+}
+
+#section-2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
