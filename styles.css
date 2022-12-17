@@ -161,23 +161,18 @@ h3 {
     
     #reviews {
         width: 520px;
-        padding: 10px 0;
+        padding: 0;
         /* background-color: green; */
     }
     
     .review {
         background-color: hsl(300, 24%, 96%);
         padding: 20px 30px;
-        margin: 20px 0;
+        margin: 15px 0;
         border-radius: 10px;
         width: 420px;
     }
-    
-    .fa-star {
-        color: rgb(238, 152, 76);
-        margin-right: 5px;
-    }
-    
+        
     .review span {
         margin-left: 20px;
         font-weight: 700;
@@ -201,42 +196,17 @@ h3 {
     
     .reviewer {
         background-color: hsl(300, 43%, 22%);
-        padding: 50px 40px;
+        padding: 50px 35px;
         border-radius: 10px;
-        height: 80%;
-    }
-    
-    .profile {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-        /* background-color: red; */
-    }
-    
-    img {
-        border-radius: 50%;
-        width: 40px;
-        margin-right: 25px;
-    }
-    
-    h3, .buyer {
-        display: block;
-    }
-    
-    h3 {
-        color: hsl(0, 0%, 100%);
-        margin-bottom: 5px;
-    }
-    
-    .buyer {
-        color: hsl(333, 80%, 67%);
+        height: 260px;
+        width: 350px;
     }
     
     .description {
         color: hsl(0, 0%, 100%);
         font-weight: 500;
-        line-height: 1.2;
-        font-size: 1.25rem;
+        line-height: 1.4;
+        font-size: 1rem;
     }
     
     #smith {
@@ -244,7 +214,7 @@ h3 {
     }
     
     #roberts {
-        margin: 20px 30px 0 30px;
+        margin: 20px 15px 0 15px;
     }
     
     #wallace {
