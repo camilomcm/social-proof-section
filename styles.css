@@ -132,6 +132,29 @@ h3 {
     margin: 40px 0 0 10px;
 }
 
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+ 
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.attribution:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: orange;
+}
+
 @media (max-width: 1440px) {
     #section-1 {
         display: flex;
