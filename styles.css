@@ -67,11 +67,26 @@ h1 {
 
 #section-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: blue;
 }
 
 .reviewer {
     background-color: hsl(300, 43%, 22%);
-    margin: 0 15px;
+}
+
+.reviewer > div {
+    
+}
+
+#smith {
+    margin-right: 10px;
+}
+
+#roberts {
+    margin: 0 20px;
+}
+
+#wallace {
+    margin-left: 10px;
 }
