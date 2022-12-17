@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-/* Design for a 1440px width screen  */
+/* Design for a 1536px width screen  */
 
 body {
     padding: 120px 170px;
@@ -130,4 +130,123 @@ h3 {
 
 #wallace {
     margin: 40px 0 0 10px;
+}
+
+@media (max-width: 1440px) {
+    #section-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 75px;
+        /* background-color: yellow; */
+    }
+    
+    #description {
+        width: 430px;
+        /* background-color: red; */
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 3.1rem;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    
+    #description p {
+        font-size: 1.05rem;
+        font-weight: 500;
+        line-height: 1.3;
+    }
+    
+    #reviews {
+        width: 520px;
+        padding: 10px 0;
+        /* background-color: green; */
+    }
+    
+    .review {
+        background-color: hsl(300, 24%, 96%);
+        padding: 20px 30px;
+        margin: 20px 0;
+        border-radius: 10px;
+        width: 420px;
+    }
+    
+    .fa-star {
+        color: rgb(238, 152, 76);
+        margin-right: 5px;
+    }
+    
+    .review span {
+        margin-left: 20px;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        font-size: 1rem;
+    }
+    
+    .guru {
+        margin-left: 50px;    
+    }
+    
+    .besttech {
+        margin-left: 100px;
+    }
+    
+    #section-2 {
+        display: flex;
+        justify-content: space-around;
+        /* background-color: blue; */
+    }
+    
+    .reviewer {
+        background-color: hsl(300, 43%, 22%);
+        padding: 50px 40px;
+        border-radius: 10px;
+        height: 80%;
+    }
+    
+    .profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        /* background-color: red; */
+    }
+    
+    img {
+        border-radius: 50%;
+        width: 40px;
+        margin-right: 25px;
+    }
+    
+    h3, .buyer {
+        display: block;
+    }
+    
+    h3 {
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 5px;
+    }
+    
+    .buyer {
+        color: hsl(333, 80%, 67%);
+    }
+    
+    .description {
+        color: hsl(0, 0%, 100%);
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 1.25rem;
+    }
+    
+    #smith {
+        margin-right: 10px;
+    }
+    
+    #roberts {
+        margin: 20px 30px 0 30px;
+    }
+    
+    #wallace {
+        margin: 40px 0 0 10px;
+    }
 }
