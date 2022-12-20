@@ -248,3 +248,107 @@ a:hover {
         margin: 40px 0 0 10px;
     }
 }
+
+@media (max-width: 375px) {
+    body {
+        padding: 50px 20px;
+    }
+    
+    #section-1 {
+        display: block;
+        /* background-color: yellow; */
+    }
+    
+    #description {
+        width: 100%;
+        /* background-color: red; */
+    }
+    
+    h1 {
+        font-size: 2.6rem;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+        /* background-color: orange; */
+    }
+    
+    #description p {
+        text-align: center;
+        font-size: 1.05rem;
+        line-height: 1.3;
+        margin-bottom: 45px;
+        /* background-color: yellow; */
+    }
+
+    #reviews {
+        width: 100%;
+        padding: 0;
+        /* background-color: green; */
+    }
+    
+    .review {
+        background-color: hsl(300, 24%, 96%);
+        padding: 15px 0;
+        margin: 15px 0;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .review span {
+        display: block;
+        margin: 10px 0 0 0;
+        font-size: 1rem;
+    }
+    
+    .guru, .besttech {
+        margin-left: 0px;    
+    }
+
+    #section-2 {
+        display: block;
+    }
+    
+    .reviewer {
+        background-color: hsl(300, 43%, 22%);
+        padding: 50px 40px;
+        border-radius: 10px;
+        height: 80%;
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .reviewer:first-of-type {
+        margin-top: -30px;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        /* background-color: red; */
+    }
+    
+    img {
+        border-radius: 50%;
+        width: 40px;
+        margin-right: 25px;
+    }
+    
+    h3 {
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 5px;
+    }
+    
+    .description {
+        color: hsl(0, 0%, 100%);
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 1.25rem;
+    }
+    
+    #roberts, #wallace {
+        margin-left: 0;
+    }
+    
+}
