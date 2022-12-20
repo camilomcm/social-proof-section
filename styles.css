@@ -84,7 +84,7 @@ h1 {
     background-color: hsl(300, 43%, 22%);
     padding: 50px 40px;
     border-radius: 10px;
-    height: 80%;
+    height: 280px;
 }
 
 .profile {
@@ -117,7 +117,7 @@ h3 {
     color: hsl(0, 0%, 100%);
     font-weight: 500;
     line-height: 1.2;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 
 #smith {
@@ -133,7 +133,7 @@ h3 {
 }
 
 .attribution {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     right: 0px;
     padding: 10px;
