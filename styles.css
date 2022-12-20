@@ -251,7 +251,7 @@ a:hover {
 
 @media (max-width: 375px) {
     body {
-        padding: 50px 20px;
+        padding: 50px 20px 0;
     }
     
     #section-1 {
@@ -307,11 +307,12 @@ a:hover {
 
     #section-2 {
         display: block;
+        margin-bottom: 50px;
     }
     
     .reviewer {
         background-color: hsl(300, 43%, 22%);
-        padding: 50px 40px;
+        padding: 30px 30px;
         border-radius: 10px;
         height: 80%;
         width: 100%;
@@ -325,30 +326,36 @@ a:hover {
     .profile {
         display: flex;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
         /* background-color: red; */
     }
     
     img {
-        border-radius: 50%;
-        width: 40px;
-        margin-right: 25px;
+        width: 35px;
+        margin-right: 20px;
     }
     
-    h3 {
-        color: hsl(0, 0%, 100%);
-        margin-bottom: 5px;
+    h3, .buyer {
+        font-size: 1rem;
     }
     
     .description {
-        color: hsl(0, 0%, 100%);
-        font-weight: 500;
         line-height: 1.2;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     #roberts, #wallace {
         margin-left: 0;
     }
+
+    #wallace {
+        margin-top: 20px;
+    }
     
+    .attribution {
+        position: relative;
+        text-align: center;
+        margin: 0 -20px;
+    }
+
 }
