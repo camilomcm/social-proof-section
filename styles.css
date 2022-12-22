@@ -6,6 +6,7 @@
 /* Design for a 1536px width screen  */
 
 body {
+    position: relative;
     padding: 120px 170px;
     font-family: 'League Spartan', sans-serif;
     background: 
@@ -352,6 +353,7 @@ a:hover {
         position: relative;
         text-align: center;
         margin: 0 -20px;
+        line-height: 1.4;
     }
 
 }
