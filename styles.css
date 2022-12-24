@@ -101,13 +101,14 @@ img {
     margin-right: 25px;
 }
 
-h3, .buyer {
+h2, .buyer {
     display: block;
 }
 
-h3 {
+h2 {
     color: hsl(0, 0%, 100%);
     margin-bottom: 5px;
+    font-size: 1rem;
 }
 
 .buyer {
@@ -332,7 +333,7 @@ a:hover {
         margin-right: 20px;
     }
     
-    h3, .buyer {
+    h2, .buyer {
         font-size: 1rem;
     }
     
