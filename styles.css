@@ -86,6 +86,8 @@ h1 {
     padding: 50px 40px;
     border-radius: 10px;
     height: 280px;
+    display: flex;
+    align-items: center;
 }
 
 .profile {
@@ -158,7 +160,7 @@ a:hover {
     color: orange;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1510px) {
     body {
         padding: 138px 170px;
     }
@@ -249,6 +251,140 @@ a:hover {
     
     #wallace {
         margin: 40px 0 0 10px;
+    }
+}
+
+@media (max-width: 1438px) {
+
+    #description {
+        width: 370px;
+        background-color: red;
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 3.2rem;
+        margin-bottom: 30px;
+        width: 80%;
+        letter-spacing: -2.5px;
+    }
+    
+    #description p {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+    
+    #reviews {
+        width: 500px;
+        padding: 0;
+        background-color: green;
+    }
+    
+    .review {
+        background-color: hsl(300, 24%, 96%);
+        padding: 20px 20px;
+        margin: 15px 0;
+        border-radius: 10px;
+        width: 400px;
+    }
+        
+    .review span {
+        margin-left: 20px;
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        font-size: 1rem;
+    }
+    
+    .guru {
+        margin-left: 50px;    
+    }
+    
+    .besttech {
+        margin-left: 100px;
+    }
+
+    .reviewer {
+        padding: 40px 35px;
+        height: 260px;
+    }
+
+    .description {
+        color: hsl(0, 0%, 100%);
+        font-weight: 500;
+        line-height: 1.4;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #section-1 {
+        display: block;
+        /* background-color: yellow; */
+    } 
+
+    h1, #description, #reviews {
+        width: 100%;
+    }
+    
+    h1, #description p {
+        text-align: center;
+    }
+    
+    .review {
+        padding: 15px 0;
+        margin: 15px 0;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .review span {
+        display: block;
+    }
+
+    #section-2 {
+        display: block;
+        /* margin-bottom: 50px; */
+    }
+    
+    .reviewer {
+        padding: 30px 30px;
+        height: 80%;
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .reviewer:first-of-type {
+        margin-top: -30px;
+    }
+ 
+    img {
+        width: 35px;
+        margin-right: 20px;
+    }
+    
+    h2, .buyer {
+        font-size: 1rem;
+    }
+    
+    .description {
+        line-height: 1.4;
+        font-size: 0.98rem;
+    }
+    
+    #roberts, #wallace {
+        margin-left: 0;
+    }
+
+    #wallace {
+        margin-top: 20px;
+    } 
+}
+
+@media (max-width: 1000px) {
+    body {
+        padding: 70px 100px;
     }
 }
 
@@ -354,7 +490,7 @@ a:hover {
     .attribution {
         position: relative;
         text-align: center;
-        margin: 0 -20px;
+        margin: -20px -20px 0;
         line-height: 1.4;
     }
 
