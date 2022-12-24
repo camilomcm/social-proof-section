@@ -7,7 +7,7 @@
 
 body {
     position: relative;
-    padding: 120px 170px;
+    padding: 103px 170px;
     font-family: 'League Spartan', sans-serif;
     background: 
         url(images/bg-pattern-top-desktop.svg) left top no-repeat, 
@@ -139,7 +139,7 @@ h2 {
     bottom: 0px;
     right: 0px;
     padding: 10px;
- 
+    color: hsl(0, 0%, 100%);
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -151,6 +151,7 @@ h2 {
 a {
     text-decoration: none;
     transition: color 0.3s;
+    color: hsl(0, 0%, 100%);
 }
 
 a:hover {
