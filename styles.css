@@ -42,13 +42,13 @@ h1 {
     color: hsl(303, 10%, 53%);
 }
 
-#reviews {
+#ratings {
     width: 600px;
     padding: 20px 0;
     /* background-color: green; */
 }
 
-.review {
+.rating {
     background-color: hsl(300, 24%, 96%);
     padding: 20px 30px;
     margin: 20px 0;
@@ -61,7 +61,7 @@ h1 {
     margin-right: 5px;
 }
 
-.review span {
+.rating span {
     margin-left: 20px;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
@@ -118,7 +118,7 @@ h2 {
     color: hsl(333, 80%, 67%);
 }
 
-.description {
+.review {
     color: hsl(0, 0%, 100%);
     font-weight: 500;
     line-height: 1.2;
@@ -180,16 +180,16 @@ a:hover {
         line-height: 1.4;
     }
     
-    #reviews {
+    #ratings {
         width: 520px;
     }
     
-    .review {
+    .rating {
         margin: 15px 0;
         width: 420px;
     }
         
-    .review span {
+    .rating span {
         font-size: 1rem;
     }
         
@@ -198,7 +198,7 @@ a:hover {
         height: 260px;
     }
     
-    .description {
+    .review {
         line-height: 1.4;
         font-size: 1rem;
     }
@@ -222,11 +222,11 @@ a:hover {
         font-size: 1rem;
     }
     
-    #reviews {
+    #ratings {
         width: 500px;
     }
     
-    .review {
+    .rating {
         padding: 20px 20px;
         width: 400px;
     }
@@ -235,7 +235,7 @@ a:hover {
         padding: 40px 35px;
     }
 
-    .description {
+    .review {
         font-size: 0.9rem;
     }
 }
@@ -245,7 +245,7 @@ a:hover {
         display: block;
     } 
 
-    h1, #description, #reviews {
+    h1, #description, #ratings {
         width: 100%;
     }
     
@@ -253,14 +253,14 @@ a:hover {
         text-align: center;
     }
     
-    .review {
+    .rating {
         padding: 15px 0;
         margin: 15px 0;
         width: 100%;
         text-align: center;
     }
 
-    .review span {
+    .rating span {
         display: block;
         margin: 10px 0 0 0;
     }
@@ -289,7 +289,7 @@ a:hover {
         font-size: 1rem;
     }
     
-    .description {
+    .review {
         line-height: 1.4;
         font-size: 0.98rem;
     }
